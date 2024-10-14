@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    
+</body>
+</html><div id="konten">
+    <h3 align="center">Pembelian Item</h3>
+    <br>
+    <form action="">
+
+        <table align="center" width="70%">
+            <tr>
+                <td>
+                
+                    <label for="nama_pbl">Nama Pembeli</label>
+                </td>
+                <td>
+                    <input type="text"name="nama_pbl" id="nama_pbl" required placeholder="Masukkan Nama Lengkap Anda" minlength="6" maxlangth="10">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email"placeholder="Masukkan Email Pribadi"required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="harga">Harga</label>
+                </td>
+                <td>
+                    <select name="harga" id="harga" required>
+                        <option value="">Pilih Harga Item</option>
+                        <option value="bj">T-shirt 150.000 </option>
+                        <option value="pt">Pants 100.000</option>
+                        <option value="hd">Hoodie 180.000</option>
+                        <option value="sh">Shoes 200.000</option>
+                        <option value="cp">Caps 60.000</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                
+                <tr>
+                    <td>
+                        <label for="">Jenis Kelamin</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="jenis" id="L" value="L" required>
+                        <label for="L">Laki-Laki</label> <br>
+                        <input type="radio" name="jenis" id="P" value="P">
+                        <label for="P">Perempuan</label> <br>
+                    </td>
+                </tr>
+               
+                
+               
+
+                <tr>
+                    <td></td>
+                    <td>
+                    <button type="submit">Simpan</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+ </div>
+</body>
+</html>
